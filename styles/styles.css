@@ -1,0 +1,49 @@
+.contenedorHeader {
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+
+.contenedorHeader a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedorMain {
+    border: 2px solid black;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorIzquierda {
+    border: 2px solid black;
+    height: 80vh;
+    width: 45vw;
+    z-index: 10;
+}
+
+.contenedorIzquierda h1, h3, p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contenedorDerecha {
+    border: 2px solid black;
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contenedorDerecha img {
+    width: 120%;
+    z-index: 0;
+}
